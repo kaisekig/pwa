@@ -1,0 +1,19 @@
+.col-md-6 .card-body {
+    text-align: center;
+}
+
+.signin-page {
+    padding-top: 80px;
+}
+
+.signin-page .form-control {
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(179,179,179,1);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(179,179,179,1);
+    box-shadow: 1px 1px 4px 0px rgba(179,179,179,1);
+}
+
+.signin-page .btn {
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(179,179,179,1);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(179,179,179,1);
+    box-shadow: 1px 1px 4px 0px rgba(179,179,179,1);
+}

@@ -1,0 +1,10 @@
+.fallback {
+    padding-top: 50px;
+}
+
+.fallback .card {
+    border: none;
+    -webkit-box-shadow: 0px 0px 0px 0px #ffffff;
+    -moz-box-shadow: 0px 0px 0px 0px #ffffff;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+}

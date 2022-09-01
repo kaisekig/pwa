@@ -1,0 +1,42 @@
+.card {
+    border: none;
+    text-align: center;
+}
+
+a {
+    color: #373838;
+}
+a:hover {
+    text-decoration: none;
+    color: #2D2926;
+}
+
+.container .card {
+    border: 1px solid;
+    border-color: #ccc;
+}
+
+.link-params {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.quotes-input {
+    padding-top: 40px;
+}
+
+.quotes-input .form-control {
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(179,179,179,1);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(179,179,179,1);
+    box-shadow: 1px 1px 4px 0px rgba(179,179,179,1);
+}
+
+.card {
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(227,224,227,1);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(227,224,227,1);
+    box-shadow: 2px 2px 4px 0px rgba(227,224,227,1);
+}
+
+.card-body {
+    text-align: center;
+}
