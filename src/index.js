@@ -14,6 +14,8 @@ const SignIn = React.lazy(() => import('./components/SignIn'));
 const Fallback = React.lazy(() => import('./components/Fallback'));
 const Quotes = React.lazy(() => import('./components/Quotes'));
 const SingleQuote = React.lazy(() => import('./components/SingleQuote'));
+const SignOut = React.lazy(() => import('./components/SingOut'));
+const Register = React.lazy(() => import('./components/Register'));
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +24,8 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/signin" component={SignIn} />
+        <Route path="/register" component={Register} />
+        <Route path="/signout" component={SignOut} />
         <Route path="/fallback" component={Fallback} />
         <Route path="/quotes" component={Quotes} />
         <Route path="/:postId" component={SingleQuote} />

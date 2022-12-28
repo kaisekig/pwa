@@ -25,12 +25,14 @@ export default class RoleMenu extends React.Component {
         return [
             new MenuItem("Home", "/"),
             new MenuItem("Sign In", "/signin"),
+            new MenuItem("Register", "/register")
         ];
     }
 
     userMenuItems() {
         return [
             new MenuItem("Quotes", "/quotes"),
+            new MenuItem("Sign Out", "/signout")
         ];
     }
 }
